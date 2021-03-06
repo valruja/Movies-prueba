@@ -1,0 +1,23 @@
+.boton{
+    margin-left: 20px;
+    padding: 10px;
+    background: navy;
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    color: white;
+}
+
+.table{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.peliculas{
+    margin: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}

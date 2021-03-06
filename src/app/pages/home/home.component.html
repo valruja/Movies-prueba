@@ -1,0 +1,9 @@
+
+<app-post-peliculas></app-post-peliculas>
+
+<div class="peliculas">
+    <ng-container *ngFor="let item of data.results">
+        <app-post-peliculas [post]="item"></app-post-peliculas>
+    </ng-container>
+</div>
+

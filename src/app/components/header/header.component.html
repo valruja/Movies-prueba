@@ -1,0 +1,12 @@
+<div class="header">
+    <div class="menu">
+        <span class="botones"><a routerLink = '/Home' >HOME</a></span>
+        <span class="botones"><a routerLink = '/Log in' >LOG IN</a></span>
+        <span class="botones"><a routerLink = '/Movies' >MOVIES</a></span>
+        <span class="botones" *ngIf="!user"><a routerLink = '/Register' >REGISTER</a></span>
+        <button class="botones-close" *ngIf="user" (click)="HandleOut()" >CLOSE ACCOUNT</button>
+    </div>
+    <div class="titulo">
+        <h1>THE POPCORN SITE</h1>
+    </div>
+</div>
